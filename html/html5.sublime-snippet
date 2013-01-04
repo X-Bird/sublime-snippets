@@ -8,16 +8,17 @@
 	<link rel="icon" href="imgs/favicon.ico">
 	<link rel="shortcut icon" href="imgs/favicon.ico">
 	<link rel="Bookmark" href="imgs/favicon.ico">
-	${2:<link rel="stylesheet" href="css/style.css">}
-	${3:<script src="js/jquery-min.js"></script>}
-	${4:<script src="js/init.js"></script>}
+	<link rel="stylesheet" href="${2:css/style.css}">
+	<script src="${3:js/jquery-min.js}"></script>
+	<script src="${4:js/init.js}"></script>
 </head>
 <body>
+	${5}
 </body>
 </html>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>html5</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<scope>source.html</scope>
 </snippet>
